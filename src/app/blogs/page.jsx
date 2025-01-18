@@ -43,12 +43,7 @@ const Page = async () => {
               blog={blog}
             />
           ))}
-          {blogs?.map((blog) => (
-            <BlogCard
-              key={blog.documentId}
-              blog={blog}
-            />
-          ))}
+          
         </div>
       </div>
       <Footer />
