@@ -35,7 +35,7 @@ const BlogDetails = async ({ params }) => {
   return (
     <>
       <Navbar />
-      <div className='mt-[100px] px-[20px] sm:px-[120px]'>
+      <div className='mt-[100px] mb-[50px] px-[20px] sm:px-[120px]'>
         {blog.media_content?.formats?.thumbnail?.url && (
           <Image
             src={"https://blgts.luzo.app" + blog.media_content.formats.thumbnail.url}
