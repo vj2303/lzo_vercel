@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Tourist Junction",
+    "slug": "Tourist_Junction",
+    "version": "5.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.touristjunction.transport"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/tourist_wallpaper.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.touristjunction.transport"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c493a6f3-ac8a-4820-8906-f3f3dfe6043b"
+      }
+    }
+  }
+}
